@@ -1,0 +1,61 @@
+body, html {
+  height: 100%;
+}
+
+div.wrap {
+  height: 100%;
+  overflow:hidden;
+}
+
+body {
+  overflow:hidden;
+}
+
+#topbar {
+  text-align: center;
+  padding: 2em;
+  border-bottom: 2px solid;
+  height: 20%;
+}
+
+#searchbutton {
+  margin: 2em;
+}
+
+#save {
+  position: absolute;
+  right: 10px;
+}
+
+#topicbar {
+  float: left;
+  width: 30%;
+  border-right: 2px solid;
+  height: 80%;
+  text-align: center; 
+  padding: 10px;
+  overflow: auto;
+}
+
+#articlebox {
+  float: right;
+  width: 70%;
+  text-align: left;
+  padding 10px;
+  height: 80%;
+}
+
+.article {
+  padding: 20px;
+  overflow: auto;
+  height: 100%;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+.more {
+ color: blue;
+ text-decoration: underline;
+
